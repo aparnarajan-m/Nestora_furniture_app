@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.header-logo,
+.header-btn-div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.header-logo{
+    background-color: rgb(85, 85, 38);
+    border-radius: 0px 5px 5px 2px;
+}
+
+.header-nav{
+    gap: 30px;
+    display: flex;
+}
+
+.links{
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.header-Login-btn{
+    width: 30%;
+    height: 53%;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(85, 85, 38);
+}
