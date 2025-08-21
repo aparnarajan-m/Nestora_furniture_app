@@ -1,9 +1,13 @@
 import React from 'react'
+import CategorySlider from '../Components/CategorySlider'
+import './categories.css'
 
 function Categories() {
   return (
-    <div>
-      <h2>Welcome To Categories Page</h2>
+    <div className='categories'>
+      <h2 className="category-title">Furniture Categories</h2>
+      <div></div>
+      <CategorySlider/>
     </div>
   )
 }

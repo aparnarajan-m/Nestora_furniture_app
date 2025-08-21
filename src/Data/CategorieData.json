@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Wardrobes",
+    "subtitle": "Storage Units",
+    "image": "https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/abhinav/ond-1634120396-Obfdc/amj-1649698066-erEC6/wardrobe-1649757267-ObgJp/wardrobe-2-2-1653392638-TEywi.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Office Desks",
+    "subtitle": "Work Comfort",
+    "image": "https://i.pinimg.com/originals/a6/8f/4b/a68f4b97860ae5c243a96369746fd317.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sofas",
+    "subtitle": "Living Room",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/812cjv6iodL.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Beds",
+    "subtitle": "Bedroom",
+    "image": "https://i.pinimg.com/1200x/01/c5/02/01c50269fd3ba01ada52ff0aa276565e.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dining Tables",
+    "subtitle": "Meal Space",
+    "image": "https://images.woodenstreet.de/image/data/dining-set/6-seater/trish-advait-6-seater-dining-table-set-with-bench/with-bench/6.jpg"
+  }
+]

@@ -10,18 +10,19 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    /* background-color: red; */
 }
 
-.hero-sub-section{
+.hero-content{
     width: 90%;
     max-width: 500px;
-    height: 45%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     position: absolute;
     top: 50px;
-    /* background-color: red; */
+    /* background-color: yellow; */
 }
 
 .hero-title{
@@ -63,6 +64,94 @@
     background-color: white;
     border: 1px solid rgb(211, 211, 4);
     /* padding: 10px 30px; */
+}
+
+/* Gallery-section style */
+.gallery-section{
+    width: 100%;
+    height: 700px;
+    color:  rgb(82, 82, 5);
+    background-color: whitesmoke;
+    /* background-color:chartreuse; */
+}
+
+.gallery-contents{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: darkmagenta; */
+}
+
+.gallery-content{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+}
+
+.gallery-heading{
+    font-size: 2rem;
+}
+
+.gallery-description{
+    font-size: .7rem;
+}
+
+.gallery-grid{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: brown; */
+}
+
+.gallery-center-item{
+    width: 25%;
+    height: 100%;
+}
+
+.gallery-center-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.gallery-item,
+.gallery-column{
+    width: 18%;
+    /* background-color: burlywood; */
+}
+.gallery-item{
+    height: 60%;
+}
+
+.gallery-column{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: chocolate; */
+}
+
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.gallery-column img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
 }
 
 /* Responsive */

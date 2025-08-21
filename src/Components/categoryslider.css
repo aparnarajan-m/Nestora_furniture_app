@@ -1,0 +1,87 @@
+.category-slider {
+  width: 100%;
+  max-width: 1500px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px 0 40px;
+  position: relative;
+}
+
+.category-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  cursor: pointer;
+}
+
+.category-image {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.category-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 5px;
+}
+
+.category-card p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Gap between cards */
+.slick-slide {
+  padding: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  top: 130px;
+}
+
+/* Move arrows outward */
+.slick-prev {
+  left: -60px;  
+}
+.slick-next {
+  right: -60px;
+}
+
+/* Arrow icons */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: rgb(165, 165, 165);
+}
+
+
+/* Dots */
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  transform: translateX(-50%);
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-dots li button:before {
+  font-size: 8px;
+  color: #777676;
+}
+.slick-dots li.slick-active button:before {
+  color: rgb(54, 53, 53);
+}
+
