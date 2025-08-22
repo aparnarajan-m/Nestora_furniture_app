@@ -1,26 +1,41 @@
 .category-slider {
   width: 100%;
   max-width: 1500px;
+  height: 40%;
   margin: 50px auto;
   text-align: center;
   padding: 20px 0 40px;
   position: relative;
+  align-items: center;
+  /* background-color: wheat; */
+}
+
+.slick-list {
+  height: 100% !important;   /* force to follow parent */
+}
+
+.slick-track {
+  height: 100% !important;   /* force to follow parent */
+  display: flex;  
 }
 
 .category-card {
+  width: 100%;
+  height: 100%;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.08); */
+  /* background-color: white; */
 }
 
 .category-image {
   width: 100%;
-  height: 220px;
+  height: 250px;
   border-radius: 12px;
   object-fit: cover;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .category-card h3 {
@@ -36,10 +51,8 @@
 
 /* Gap between cards */
 .slick-slide {
-  padding: 0 20px;
-}
-.slick-list {
-  margin: 0 -20px;
+  padding: 0 15px;
+  /* background-color: aquamarine; */
 }
 
 /* Arrows */
@@ -49,14 +62,7 @@
   height: 50px;
   cursor: pointer;
   top: 130px;
-}
-
-/* Move arrows outward */
-.slick-prev {
-  left: -60px;  
-}
-.slick-next {
-  right: -60px;
+  z-index: 1;
 }
 
 /* Arrow icons */
@@ -76,12 +82,3 @@
   display: flex !important;
   justify-content: center;
 }
-
-.slick-dots li button:before {
-  font-size: 8px;
-  color: #777676;
-}
-.slick-dots li.slick-active button:before {
-  color: rgb(54, 53, 53);
-}
-
