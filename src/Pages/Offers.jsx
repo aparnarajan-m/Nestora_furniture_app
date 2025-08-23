@@ -1,9 +1,11 @@
 import React from 'react'
+import OffersCart from '../Components/OffersCart'
+
 
 function Offers() {
   return (
     <div>
-      <h2>Welcome To Offers Page</h2>
+      <OffersCart/>
     </div>
   )
 }
