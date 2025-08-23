@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
-import CategorieData from '../Data/CategorieData.json'
+import SliderData from '../Data/SliderCatData.json'
 import './categoryslider.css'
 
 import "slick-carousel/slick/slick.css";
@@ -24,7 +24,7 @@ function CategorySlider() {
   return (
      <div className="category-slider">
       <Slider {...settings}>
-        {CategorieData.map((cat) => (
+        {SliderData.map((cat) => (
           <div className="category-card" key={cat.id}>
             <img className="category-image" src={cat.image} alt={cat.name}  />
             <h3>{cat.name}</h3>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Comfort Recliner Chair",
+    "price": "₹12999",
+    "image": "https://i.pinimg.com/1200x/2b/ea/b5/2beab525418379d9fd3464af9ecdf8ba.jpg",
+    "description": "Soft fabric recliner chair with premium comfort.",
+    "rating": 4.5,
+    "reviews": 32
+  },
+  {
+    "id": 2,
+    "name": "Minimalist Coffee Table",
+    "price": "₹5299",
+    "image": "https://i.pinimg.com/1200x/ea/f7/61/eaf761f62045f1b98c2c766677d41ecb.jpg",
+    "description": "Modern wooden coffee table with minimalist design.",
+    "rating": 4.3,
+    "reviews": 18
+  },
+  {
+    "id": 3,
+    "name": "Classic Dining Table",
+    "price": "₹15,499",
+    "rating": 4.7,
+    "reviews": 55,
+    "image": "https://i.pinimg.com/1200x/88/e8/1b/88e81b1cbf1170baab139afc707b6896.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Urban Bookshelf",
+    "price": "₹7499",
+    "image": "https://i.pinimg.com/1200x/f0/4d/24/f04d247d6fea649f3c748f0e37cc4d08.jpg",
+    "description": "Stylish bookshelf with multiple compartments.",
+    "rating": 4.6,
+    "reviews": 40
+  },
+  {
+    "id": 5,
+    "name": "Premium Wooden Chair",
+    "price": "₹8250",
+    "image": "https://i.pinimg.com/736x/43/ae/f5/43aef5050da93714c7389ba4d57f5be2.jpg",
+    "description": "Elegant premium wooden chair for dining & office.",
+    "rating": 4.4,
+    "reviews": 29
+  },
+  {
+    "id": 6,
+    "name": "Wooden Bedside Table",
+    "price": "₹4119",
+    "image": "https://i.pinimg.com/736x/09/a1/6d/09a16da738d4086d9f5a5de3479263c5.jpg",
+    "description": "Classic wooden bedside table with drawer.",
+    "rating": 4.2,
+    "reviews": 15
+  },
+  {
+    "id": 7,
+    "name": "Compact Shoe Rack",
+    "price": "₹3999",
+    "image": "https://i.pinimg.com/736x/f9/c3/fa/f9c3fad7822d2e0fa83c93f9348ed3dd.jpg",
+    "description": "Space-saving compact shoe rack with wooden finish.",
+    "rating": 4.1,
+    "reviews": 25
+  },
+  {
+    "id": 8,
+    "name": "Luxury Sofa Set",
+    "price": "₹24,999",
+    "rating": 4.8,
+    "reviews": 63,
+    "image": "https://i.pinimg.com/736x/21/83/c8/2183c8282dfe954bdc6ed7574c716f20.jpg"
+
+
+
+  },
+  {
+    "id": 9,
+    "name": "Modern Study Desk",
+    "price": "₹6,799",
+    "rating": 4.2,
+    "reviews": 20,
+    "image": "https://i.pinimg.com/1200x/9c/15/c5/9c15c5b55d36eee45886f30d0e76dbf1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ergonomic Office Chair",
+    "price": "₹9,999",
+    "rating": 4.5,
+    "reviews": 38,
+    "image": "https://i.pinimg.com/1200x/35/5a/99/355a998143a2c5ebe20663e2c12f6b2a.jpg"
+  }
+
+]
