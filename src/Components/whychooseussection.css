@@ -1,11 +1,8 @@
 .why-choose-section {
     width: 100%;
-    max-width: 1500px;
-    margin: auto;
     height: 600px;
     display: flex;
     padding: 25px;
-    color: rgb(82, 82, 5);
     /* background-color: red; */
 }
 

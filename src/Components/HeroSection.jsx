@@ -6,7 +6,6 @@ import img4 from '../assets/img4.jpg'
 import img5 from '../assets/img5.jpg'
 import img7 from '../assets/img7.jpg'
 import img6 from '../assets/img6.jpg'
-
 import './herosection.css'
 
 function HeroSection() {
