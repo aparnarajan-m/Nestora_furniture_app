@@ -1,9 +1,10 @@
 import React from 'react'
+import WhyChooseUsSection from '../Components/WhyChooseUsSection'
 
 function Contact() {
   return (
     <div>
-      <h2>Welcome To Contact Page</h2>
+      <WhyChooseUsSection/>
     </div>
   )
 }
