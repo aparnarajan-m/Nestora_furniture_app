@@ -1,35 +1,37 @@
 .offer-section {
     width: 100%;
-    height: 100vh;
+    height: 850px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: rgb(82, 82, 5);
     background-color: rgb(248, 243, 184);
 
 }
 
-.offer-section h1 {
-  margin-bottom: 10px;
-}
-
-.offer-section p {
-  margin-bottom: 30px;
-  color: #555;
-}
-
 .offer-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+    width: 100%;
+    height: 85%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  /* background-color: red; */
 }
 
 .offer-card {
-  width: 255px;
-  background: white;
-  border-radius: 12px;
-  text-align: center;
-  position: relative;
-  transition: 0.3s;
+    width: 18%;
+    height: 45%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 8px;
+    transition: 0.3s;
+    background-color: white;
 }
 
 .offer-card:hover {
@@ -39,42 +41,47 @@
 
 .offer-img {
   width: 100%;
-  height: 160px;
+  height: 65%;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
+}
+
+.price-section{
+    display: flex;
+    gap: 10px;
 }
 
 .old-price {
   text-decoration: line-through;
-  color: #888;
+  color: red;
 }
 
 .new-price {
   color: #2a9d8f;
+  color: green;
   font-size: 18px;
   font-weight: bold;
 }
 
 .discount {
-  background: #e63946;
-  color: white;
   padding: 4px 8px;
   border-radius: 6px;
   font-size: 12px;
+  color: white;
   position: absolute;
   top: 10px;
   right: 10px;
+  background: #e63946;
 }
 
 .offer-btn {
-  margin-top: 10px;
-  padding: 8px 12px;
-  background: rgb(82, 82, 5);
+  padding: 10px 13px;
   color: white;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
+  background: rgb(82, 82, 5);
 }
 
 .offer-btn:hover {

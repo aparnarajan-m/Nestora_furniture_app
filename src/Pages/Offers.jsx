@@ -1,10 +1,11 @@
 import React from 'react'
 import OffersCart from '../Components/OffersCart'
+import './offers.css'
 
 
 function Offers() {
   return (
-    <div>
+    <div className='offers'>
       <OffersCart/>
     </div>
   )

@@ -1,42 +1,66 @@
 [
-    {
-        "id": 1,
-        "name": "Luxury Sofa Set",
-        "originalPrice": 24999,
-        "offerPrice": 19999,
-        "discount": "20%",
-        "image": "https://i.pinimg.com/1200x/34/d0/0f/34d00ff292e147acaa107722b5796e40.jpg"
-    },
-    {
-        "id": 2,
-        "name": "TV Stand",
-        "originalPrice": 6999,
-        "offerPrice": 4499,
-        "discount": "36%",
-        "image": "https://i.pinimg.com/1200x/57/0b/f2/570bf2ddb61e52682c01d157e483ce52.jpg"
-    },
-    {
-        "id": 3,
-        "name": "Wooden Dining Table",
-        "originalPrice": 15999,
-        "offerPrice": 11999,
-        "discount": "25%",
-        "image": "https://i.pinimg.com/1200x/93/3c/8e/933c8e18e62aa3b899877032a300b176.jpg"
-    },
-    {
-        "id": 4,
-        "name": "King Size Bed",
-        "originalPrice": 34999,
-        "offerPrice": 27999,
-        "discount": "20%",
-        "image": "https://i.pinimg.com/1200x/da/ed/e4/daede435216cc4c4c35d113d7d0f314b.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Recliner Chair",
-        "originalPrice": 14999,
-        "offerPrice": 10999,
-        "discount": "27%",
-        "image": "https://i.pinimg.com/736x/d3/8a/1f/d38a1f66d3a31bb5671ff5749501f100.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Luxury Sofa Set",
+    "originalPrice": 24999,
+    "offerPrice": 19999,
+    "discount": "20%",
+    "image": "https://i.pinimg.com/1200x/34/d0/0f/34d00ff292e147acaa107722b5796e40.jpg"
+  },
+  {
+    "id": 2,
+    "name": "TV Stand",
+    "originalPrice": 6999,
+    "offerPrice": 4499,
+    "discount": "36%",
+    "image": "https://i.pinimg.com/1200x/57/0b/f2/570bf2ddb61e52682c01d157e483ce52.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Wooden Dining Table",
+    "originalPrice": 15999,
+    "offerPrice": 11999,
+    "discount": "25%",
+    "image": "https://i.pinimg.com/1200x/93/3c/8e/933c8e18e62aa3b899877032a300b176.jpg"
+  },
+  {
+    "id": 4,
+    "name": "King Size Bed",
+    "originalPrice": 34999,
+    "offerPrice": 27999,
+    "discount": "20%",
+    "image": "https://i.pinimg.com/1200x/da/ed/e4/daede435216cc4c4c35d113d7d0f314b.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Recliner Chair",
+    "originalPrice": 14999,
+    "offerPrice": 10999,
+    "discount": "27%",
+    "image": "https://i.pinimg.com/736x/d3/8a/1f/d38a1f66d3a31bb5671ff5749501f100.jpg"
+  },
+  {
+  "id": 6,
+  "name": "Bookshelf",
+  "originalPrice": 8999,
+  "offerPrice": 5999,
+  "discount": "33%",
+  "image": "https://i.pinimg.com/736x/23/2b/2d/232b2dea48bd8692970de10a7ac10319.jpg"
+  },
+  {
+  "id": 7,
+  "name": "Office Work Desk",
+  "originalPrice": 12999,
+  "offerPrice": 9499,
+  "discount": "27%",
+  "image": "https://i.pinimg.com/1200x/9c/15/c5/9c15c5b55d36eee45886f30d0e76dbf1.jpg"
+},
+{
+  "id": 8,
+  "name": "Decor Table",
+  "originalPrice": 7999,
+  "offerPrice": 5499,
+  "discount": "31%",
+  "image": "https://i.pinimg.com/736x/1d/66/91/1d66912fd211d4751eb3f1d34a1da5fe.jpg"
+}
 ]
