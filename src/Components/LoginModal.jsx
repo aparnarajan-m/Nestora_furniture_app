@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { loginSuccess, closeLogin } from '../Redux/authSlice'
+import { toast } from 'react-toastify'
 import './loginmodal.css'
 
 function LoginModal() {
@@ -60,6 +61,7 @@ function LoginModal() {
 
     // if everything ok
     dispatch(loginSuccess({ name: username, email }));
+    toast.success("✅ Login successful!")
 
     // clear form fields
     setUsername("");
