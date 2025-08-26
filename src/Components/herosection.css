@@ -10,6 +10,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    z-index: 1;
     /* background-color: red; */
 }
 
@@ -172,4 +173,3 @@
         gap: 10px;
     }
 }
-

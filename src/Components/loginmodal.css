@@ -1,0 +1,86 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  color:  rgb(82, 82, 5);
+}
+
+.modal-content {
+  width: 25%;
+  height: 65%;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background:  white;
+  overflow: hidden;
+}
+
+.design-div{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(82, 82, 5);
+    position: absolute;
+    /* left: 0; */
+    /* top: 0; */
+}
+
+input{
+    outline: none;
+}
+
+form{
+    width: 100%; 
+    height: 90%;
+    z-index: 2;            
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    /* background-color: aquamarine; */
+}
+
+.modal-content input {
+  width: 85%;
+  padding: 0.6rem 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn{
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgb(82, 82, 5);
+}
+
+.close-btn {
+    width: 6%;
+    height: 5%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    border-radius: 18px;
+    font-size: 15px;
+    cursor: pointer;
+    color:  rgb(82, 82, 5);
+    background: rgb(171, 169, 169);
+    z-index: 10;
+}

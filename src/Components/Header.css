@@ -3,6 +3,8 @@
     height: 80px;
     border-bottom: 1px solid black;
     background-color: whitesmoke;
+    position: relative;
+    z-index: 1000;
 }
 
 .sub-header{

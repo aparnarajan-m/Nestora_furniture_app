@@ -1,9 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import whychooseimg1 from '../assets/whychooseimg1.jpg'
 import whychooseimg2 from '../assets/whychooseimg2.jpg'
 import './whychooseussection.css'
 
 function WhyChooseUsSection() {
+    const navigate = useNavigate();
     return (
         <div className='why-choose-section'>
             <div className='why-choose-text'>
@@ -32,7 +34,7 @@ function WhyChooseUsSection() {
                         <span>✔</span> Fast & Reliable Delivery
                     </li>
                 </ul>
-                <button className="why-explore-btn">Explore Them →</button>
+                <button className="why-explore-btn" onClick={() => navigate("/categories")}>Explore Them →</button>
                 </div>
             </div>
 

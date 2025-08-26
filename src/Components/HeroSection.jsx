@@ -1,4 +1,5 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import img1 from '../assets/img1.jpg'
 import img2 from '../assets/img2.jpg'
 import img3 from '../assets/img3.jpg'
@@ -9,6 +10,7 @@ import img6 from '../assets/img6.jpg'
 import './herosection.css'
 
 function HeroSection() {
+  const navigate = useNavigate();
   return (
     <>
       <div className='herosection'>
@@ -16,7 +18,7 @@ function HeroSection() {
           <h1 className='hero-title'>Furnish <br /> Your World</h1>
           <section className='hero-btn-group'>
             <button className='hero-btn hero-shop-btn'>Shop Now</button>
-            <button className='hero-btn hero-explore-btn'>Explore Categories </button>
+            <button className='hero-btn hero-explore-btn' onClick={() => navigate("/Categories")}>Explore Categories </button>
           </section>
         </div>
       </div>

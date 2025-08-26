@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css'
 import Header from './Components/Header'
 import AppRoutes from './Routes/AppRoutes'
+import LoginModal from "./Components/LoginModal";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <Header />
       <AppRoutes />
+      <LoginModal/>
     </Router>
     </div>
   )
