@@ -48,7 +48,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 1rem;
     /* background-color: aquamarine; */
 }
 
@@ -83,4 +83,10 @@ form{
     color:  rgb(82, 82, 5);
     background: rgb(171, 169, 169);
     z-index: 10;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
