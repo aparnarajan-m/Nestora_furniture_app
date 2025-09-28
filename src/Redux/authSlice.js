@@ -4,6 +4,7 @@ const authSlice = createSlice({
     name: "auth",
     initialState: {
         isLoginOpen: false,
+        isLogoutOpen: false,
         isLoggedIn: false,
         user: null,
     },
@@ -19,6 +20,12 @@ const authSlice = createSlice({
             state.user = action.payload; //payload = user data
             state.isLoginOpen = false;
         },
+        openLogout: (state) => {
+            state.isLogoutOpen = true;
+        },
+        closeLogout: (state) => {
+            state.isLogoutOpen = false;
+        },
         logOut: (state) => {
             state.isLoggedIn = false;
             state.user = null;
@@ -26,5 +33,5 @@ const authSlice = createSlice({
     }
 })
 
-export const {openLogin, closeLogin, loginSuccess, logOut} = authSlice.actions;
+export const {openLogin, closeLogin, loginSuccess, openLogout, closeLogout, logOut} = authSlice.actions;
 export default authSlice.reducer;

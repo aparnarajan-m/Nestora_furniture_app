@@ -1,7 +1,7 @@
 import React from 'react'
 import CategorySlider from '../Components/CategorySlider'
 import PopularProducts from '../Components/PopularProducts'
-import ChairCategorySection from '../Components/ChairCategorySection'
+// import ChairCategorySection from '../Components/ChairCategorySection'
 import './categories.css'
 
 
@@ -10,7 +10,7 @@ function Categories() {
     <div className='categories'>
       <CategorySlider />
       <PopularProducts/>
-      <ChairCategorySection/>
+      {/* <ChairCategorySection/> */}
     </div>
   )
 }

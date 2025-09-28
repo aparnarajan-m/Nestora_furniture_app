@@ -70,8 +70,8 @@ function LoginModal() {
   };
 
   return (
-    <div className="modal-overlay">
-      <div className="modal-content">
+    <div className="login-modal">
+      <div className="login-content">
         <div className='design-div'></div>
         <form onSubmit={handleLogin}> 
         <h2>Login</h2>
