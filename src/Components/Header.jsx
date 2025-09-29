@@ -1,10 +1,9 @@
 import React from 'react'
-import titleLogo from '../assets/titleLogo.png'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { openLogin, openLogout } from '../Redux/authSlice'
 import LogOutModal from './LogOutModal'
-import './header.css'
+import './header.css' 
 
 function Header() {
 
